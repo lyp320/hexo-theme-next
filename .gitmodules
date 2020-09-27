@@ -1,0 +1,12 @@
+[submodule "source/lib/canvas-nest"]
+	path = source/lib/canvas-nest
+	url = https://github.com/theme-next/theme-next-canvas-nest
+[submodule "source/lib/canvas-ribbon"]
+	path = source/lib/canvas-ribbon
+	url = https://github.com/theme-next/theme-next-canvas-ribbon
+[submodule "source/lib/pace"]
+	path = source/lib/pace
+	url = https://github.com/theme-next/theme-next-pace
+[submodule "source/lib/three"]
+	path = source/lib/three
+	url = https://github.com/theme-next/theme-next-three

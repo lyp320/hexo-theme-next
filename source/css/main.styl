@@ -45,3 +45,94 @@ for $inject_mixin in hexo-config('injects.mixin')
 // --------------------------------------------------
 for $inject_style in hexo-config('injects.style')
   @import $inject_style;
+
+.highlight,
+pre,
+.highlight .code pre 
+{
+  background: #2a2d2d;
+}
+
+.highlight .gutter pre {
+  background: #1d1f21;
+  border-right: 1px solid;
+}
+
+code {
+  color: #c31e48;
+  background: #fbf7f8;
+  margin: 2px;
+}
+code {
+  border: 1px solid #d6d6d6;
+}
+pre code {
+  border: none;
+}
+
+hr {
+  margin: 20px 0;
+}
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+  padding-top: 0px;
+}
+.post-body {
+	font-size: 1em;
+}
+.btn {
+  border-radius: 2px;
+}
+.sidebar-nav li {
+  font-size: 1em;
+}
+.post-toc {
+  font-size: 0.8em;
+}
+code,
+kbd,
+samp {
+  font-size: 0.85em; /* 2 */
+}
+.post-eof {
+  background: #ccc;
+  height: 2px;
+  margin: 80px auto 60px;
+  text-align: center;
+  width: 10%;
+}
+.post-body .image-caption,
+.post-body .figure .caption {
+  margin: 0px auto 15px;
+}
+.posts-expand .post-title {
+  font-size: 30px;
+}
+p {
+  margin: 10px 0 10px 0;
+}
+.menu-item a,
+.menu-item span.exturl {
+  font-size: 0.875em;
+}
+ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+::selection {
+  background: #ddd;
+  color: #555;
+}
+
+.highlight *::selection {
+  background: #ddd;
+  color: #000;
+}
